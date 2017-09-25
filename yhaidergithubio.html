@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Yasmeen Haider's GitHub Page</title>
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+                font: inherit;
+            }
+            .borderbig{
+                border: 2px solid purple;
+                margin-right: 200px;
+                margin-top: 20px;
+                margin-left: 20px;
+            }
+            .border{
+                border: 1px solid black;
+                padding: 20px;
+                margin: 5px;
+            }
+            .title h1{
+                font: 100 40pt "Helvetica Neue", sans-serif;
+                margin-left: 30px;
+            }
+            .title h2{
+                font: 100 20pt "Helvetica Neue", sans-serif;
+                margin-left: 30px;
+            }
+            a, span{
+                color: purple;
+            }
+            a:link{
+                text-decoration: none;
+                color: purple;
+            }
+            a:visited{
+                text-decoration: none;
+                color: purple;
+            }
+            a:hover{
+                color: grey;
+            }
+            a:active{
+                text-decoration: none;
+                color: purple;
+            }
+            span:link{
+                text-decoration: none;
+            }
+            span:visited{
+                text-decoration: none;
+            }
+            span:hover{
+                color: grey;
+            }
+            span:active{
+                text-decoration: none;
+            }
+            #about{
+                margin-left: 30px;
+                padding-top: 10px;
+                font: 100 14pt "Helvetica Neue", sans-serif;
+                width: 800px;
+            }
+            #about i{
+                font: 100 14pt "Helvetica Neue", sans-serif;
+                color: grey;
+            }
+    	</style>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $("#welcome").show();
+            $("#about").hide();
+            $("#projects").hide();
+       });
+       $(function() {
+          $('#projectslink').click(function() {
+              $('#about').hide();
+              $('#projects').show();
+              return false;
+          });
+      });
+        </script>
+    </head>
+    <body>
+        <div class="borderbig">
+            <div class="border">
+                <div class="title">
+                    <h1>yhaider</h1>
+                    <h2><span class="link">about</span> || <span class="link" id="projectslink">projects</span> || <a href="http://www.github.com/yhaider">github</a> || <a href="http://www.linkedin.com/in/yasmeenhaider">linkedin</a></h2>
+                </div>
+                <div id="welcome">
+
+                </div>
+                <div id="about">
+                    Name: <i>Yasmeen Haider</i><br>
+                    Age: <i>20</i><br>
+                    Education: <i>Statistics Major, University of Chicago '20</i><br>
+                    Bio: <i>Hi, my name is Yasmeen Haider, and I am currently a second-year, undergraduate student studying statistics at the University of Chicago. I began programming in June of 2017 when I was accepted into the Coding Dojo 14-week intensive, immersive full stack development program. I graduated the program with the highest recognition possible based on stellar exam performances and having completed 1000+ hours of coding. I am now proficient in the languages Python, Java, and Javascript, and in the technologies MySQL/SQLite, MongoDB, Django, Flask, Express.js, Node.js, Angular, Spring Tool Suite, and Spring Boot.</i><br>
+                </div>
+                <div id="projects">
+                    hello
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
