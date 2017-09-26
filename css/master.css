@@ -1,0 +1,74 @@
+#main{
+    letter-spacing: 1.4px;
+    text-align: center;
+    margin: auto;
+    padding: 200px 300px 300px 300px;
+    /*font-size: 60px;*/
+}
+.front{
+    background-image: url("http://www.wildtextures.com/wp-content/uploads/wildtextures_white-brick-wall.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px solid black;
+}
+h1{
+    font-size: 60px;
+}
+.maincontent{
+    font-style: none;
+    font-size: 20px;
+    width: 300px;
+    padding: -100px;
+}
+#downarrow{
+    color:inherit;
+}
+#downarrow:link{
+    color: inherit;
+}
+#downarrow:hover{
+    color: grey;
+}
+
+#da2:hover{
+    color: pink;
+}
+#about{
+    background-color: black;
+}
+.linkcontent{
+    color: inherit;
+}
+.linkcontent:link{
+    color:inherit;
+}
+.linkcontent:active{
+    color: grey;
+    text-decoration: none;
+}
+.linkcontent:hover{
+    color: grey;
+    text-decoration: none;
+}
+h2{
+    margin:auto;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 100px;
+    color: whitesmoke;
+    letter-spacing: 1.4px;
+}
+.contentforaboutme{
+    color: whitesmoke;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    padding: 40px 20px 40px 20px;
+    margin: 20px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    width: 500px;
+    margin-left: 310px;
+    margin-top: 50px;
+}
