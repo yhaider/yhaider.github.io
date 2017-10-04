@@ -81,7 +81,7 @@ h2{
     margin: auto;
     text-align: center;
     padding: 40px 20px 40px 20px;
-    margin: 20px;
+    margin: 20px 20px 20px 10px;
     border: 1px solid whitesmoke;
     border-radius: 10px;
     width: 500px;
@@ -96,4 +96,25 @@ h2{
     text-align:justify;
     text-justify:inter-word;
 
+}
+
+.givespacing{
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+
+.arrows{
+    padding-bottom: 20px;
+}
+
+
+.projectsmain{
+    background-color: whitesmoke;
+}
+.projectsmain h1{
+    margin:auto;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 100px;
+    letter-spacing: 1.4px;
 }
